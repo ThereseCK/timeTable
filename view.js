@@ -38,8 +38,8 @@ function createHtmlForTimeSlot(timeSlot, events) {
                     ${eventsFromDayAndTime(dayNo, timeSlot, events).map(event => `
                     <strong>${event.module}</strong>
                    
-                    <li> 
-                        ${event.name} <strong style="color:grey;"><br>(${event.teachers.join(', ')}</strong>)    
+                    <li>
+                        ${event.name} <strong style="color:grey;"><br>${event.teachers.join(', ')}</strong>  
                     </li><br>
                     `).join('')}
                 </ul>
