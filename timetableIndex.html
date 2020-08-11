@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimePlan</title>
+    <script src="model.js"></script>
+    <link reL="stylesheet" href="style.css">
+    <script src="view.js"></script>
+</head>
+<body>
+    <div class="page" id="page">
+        <div class="header" id="header"> TIMEPLAN FOR GETACADEMY HØST 2020</div>
+        <div class="menu" id="menu"></div>
+       
+        <div class="mainContent" id="mainContent"></div>
+    </div>
+<script>
+  initMenu();
+        show();
+
+        function selectModuleAndShow(selection) {
+            model.selectedModule = selection;
+            show();
+        }
+
+        function initMenu() {
+            document.getElementById('menu').innerHTML =
+                model.menuOptions.map(option => `
+                    <button class="buttons" 
+                            onclick="selectModuleAndShow(${option.value === null ? null : `'${option.value}'`})"
+                            > 
+                            ${option.txt} 
+                    </button>
+                `).join('');
+        }
+</script>
+</body>
+</html>

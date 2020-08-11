@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color:black;
+    color: orange;
+}
+
+
+div.mainContent {
+    background-color:black;
+    color: orange;
+ 
+}
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px orange;
+    width: auto;
+    height: auto;
+}
+
+tr, td, th {
+    background-color: snow;
+    border: 1px solid black;
+    border-collapse: collapse;
+    min-width: 50px;
+    padding: 4px;
+    height: 18px;
+}
+.buttons{
+    width: 150px;
+    background-color: orange;
+    box-shadow: peachpuff 2px 2px;
+    margin-left: 5%;
+}
+.header {
+    font-size: 30px;
+    text-align: center;
+}
