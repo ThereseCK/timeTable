@@ -33,7 +33,7 @@ const model={
             },
 
             module: 'Modul 1',
-            teachers: ['Therese']
+            teachers: ['Linn / Joakim / Emil']
         },
         {
             name: '<div> Fokusert Jobbing alene eller i team</div>',
@@ -44,7 +44,7 @@ const model={
             },
 
             module: 'Modul 1',
-            teachers: ['Therese']
+            teachers: ['Linn / Joakim / Emil']
         },
         
         // MODUL 2 MANDAG
@@ -149,7 +149,7 @@ const model={
             },
 
             module: 'Modul 1',
-            teachers: ['Therese']
+            teachers: ['Therese / Linn ']
         },
 
         // MODUL 2 - Tirsdag
@@ -184,7 +184,7 @@ const model={
             },
 
             module: 'Modul 2',
-            teachers: ['Linn']
+            teachers: ['Linn / Emil']
         },
 
         // MODUL 3- Tirsdag
@@ -208,7 +208,7 @@ const model={
             },
 
             module: 'Modul 3',
-            teachers: ['Joakim']
+            teachers: ['Emil / Linn / Therese']
         },
         {
             name: '<div> Fokusert Jobbing</div>',
@@ -219,7 +219,7 @@ const model={
             },
 
             module: 'Modul 3',
-            teachers: ['Joakim']
+            teachers: ['Emil']
         },
 
  // MODUL 1 - Onsdag
@@ -233,7 +233,7 @@ const model={
     },
 
     module: 'Modul 1',
-    teachers: []
+    teachers: ['Therese']
 },
 {
     name: '<div> Fokusert Jobbing alene eller i team</div>',
@@ -244,7 +244,7 @@ const model={
     },
 
     module: 'Modul 1',
-    teachers: []
+    teachers: ['Emil']
 },
 {
     name: '<div> Team-programmering </div>',
@@ -255,7 +255,7 @@ const model={
     },
 
     module: 'Modul 1',
-    teachers: []
+    teachers: ['Emil']
 },
 
 // MODUL 2 - onsdag
@@ -268,7 +268,7 @@ const model={
     },
 
     module: 'Modul 2',
-    teachers: []
+    teachers: ['Linn']
 },
 {
     name: '<div>  Prosjekt Jobbing</div>',
@@ -279,7 +279,7 @@ const model={
     },
 
     module: 'Modul 2',
-    teachers: []
+    teachers: ['Emil']
 },  
 {
     name: '<div>  Prosjekt Jobbing </div>',
@@ -290,7 +290,7 @@ const model={
     },
 
     module: 'Modul 2',
-    teachers: []
+    teachers: ['Emil']
 },
 
 // MODUL 3- Onsdag
@@ -303,7 +303,7 @@ const model={
     },
 
     module: 'Modul 3',
-    teachers: []
+    teachers: ['Joakim']
 },
 {
     name: '<div> Codereview </div>',
@@ -314,7 +314,7 @@ const model={
     },
 
     module: 'Modul 3',
-    teachers: []
+    teachers: ['Emil']
 },
 {
     name: '<div> Fokusert Jobbing</div>',
@@ -325,7 +325,7 @@ const model={
     },
 
     module: 'Modul 3',
-    teachers: []
+    teachers: ['Emil']
 },
         // MODUL 1 - Torsdag
 
@@ -387,7 +387,7 @@ const model={
             teachers: ['Linn']
         },  
         {
-            name: '<div>  Oppsumering av uka i team</div>',
+            name: '<div>  Oppsumering av prosjektet til de andre</div>',
             nickName: 'OUT',
             time: {
                 day: 3,
@@ -395,7 +395,7 @@ const model={
             },
 
             module: 'Modul 2',
-            teachers: []
+            teachers: ['Linn']
         },
 
         // MODUL 3- Torsdag
@@ -455,7 +455,7 @@ const model={
     },
 
     module: 'Modul 1',
-    teachers: []
+    teachers: ['Therese']
 },
 {
     name: '<div> Fokusert Jobbing</div>',
@@ -536,7 +536,7 @@ const model={
     },
 
     module: 'Modul 3',
-    teachers: []
+    teachers: ['Joakim']
 },
 // GET IT
 {
