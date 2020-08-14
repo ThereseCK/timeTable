@@ -184,7 +184,7 @@ const model={
             },
 
             module: 'Modul 2',
-            teachers: ['Linn / Emil']
+            teachers: [' Emil']
         },
 
         // MODUL 3- Tirsdag
@@ -208,7 +208,7 @@ const model={
             },
 
             module: 'Modul 3',
-            teachers: ['Emil / Linn / Therese']
+            teachers: ['Emil']
         },
         {
             name: '<div> Fokusert Jobbing</div>',
