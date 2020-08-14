@@ -395,7 +395,7 @@ const model={
             },
 
             module: 'Modul 2',
-            teachers: ['Linn']
+            teachers: ['Linn / Emil']
         },
 
         // MODUL 3- Torsdag
