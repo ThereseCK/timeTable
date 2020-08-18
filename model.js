@@ -189,7 +189,7 @@ const model={
 
         // MODUL 3- Tirsdag
         {
-            name: '<div> 09.30 - 11.30 <br> Kodetime <br> 15 min refleksjon </div>',
+            name: '<div> 09.30 - 10.00 Morgenmøte i team <br> 10.00 - 11.15 Kodetime med Terje <br> inkl 15 min refleksjon </div>',
             nickName: 'KT',
             time: {
                 day: 1,
@@ -506,7 +506,7 @@ const model={
 
 // MODUL 3- Fredag
 {
-    name: '<div> 09.15 - 11.30 <br> Kodetime <br> 15 min refleksjon </div>',
+    name: '<div> 09.30 - 10.00 Morgenmøte i team <br> 10.00 - 11.15 Kodetime med Terje <br> inkl 15 min refleksjon </div>',
     nickName: 'KT',
     time: {
         day: 4,
