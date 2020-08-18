@@ -119,7 +119,7 @@ const model={
         // MODUL 1 - Tirsdag
 
 {
-            name: '<div> 09.30 - 11.30 <br> MorgenMøte i Team </div>',
+            name: '<div> 09.30 - 11.30 <br> MorgenMøte i Team og fokusert jobbing</div>',
             nickName: 'MM',
             time: {
                 day: 1,
