@@ -387,7 +387,7 @@ const model={
             teachers: ['Linn / Emil']
         },  
         {
-            name: '<div>  Oppsumering av prosjektet til de andre</div>',
+            name: '<div> Prosjektjobbing </div>',
             nickName: 'OUT',
             time: {
                 day: 3,
@@ -471,7 +471,7 @@ const model={
 
 // MODUL 2 - Fredag
 {
-    name: '<div> 09.15 - 11.30 <br> MorgenMøte i Team og Fokusert Jobbing </div>',
+    name: '<div> 09.15 - 09.30 <br> MorgenMøte i Team <br> 09.30 - 10.00 <br> Oppsumering i Team  </div>',
     nickName: 'MM + FJ',
     time: {
         day: 4,
