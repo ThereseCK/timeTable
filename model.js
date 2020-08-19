@@ -387,7 +387,7 @@ const model={
             teachers: ['Linn / Emil']
         },  
         {
-            name: '<div> Prosjektjobbing </div>',
+            name: '<div> Prosjekt Jobbing </div>',
             nickName: 'OUT',
             time: {
                 day: 3,
