@@ -1,6 +1,6 @@
 const model={
     selectedModule: 'Modul 1',
-    days: ['Mandag <br> <p style="color: red; font-size:x-small">12.15-13.15 <br> JETLAG møte </p> ',
+    days: ['MANDAG <br> <p style="color: red; font-size:x-small">12.15-13.15 <br> JETLAG møte </p> ',
      'TIRSDAG<br><p style="color: red; font-size:x-small;"> 12-15-14.45<br> Joakim Egentid</p>',
       'ONSDAG <br><p style="color: red; font-size:x-small"> 12-15-14.45 <br> J L T Egentid </p>', 
       'TORSDAG <br> <p style="color: red; font-size:x-small"> GET Plandag </p>', 
