@@ -18,7 +18,7 @@ let selectedEvents = model.events.filter(includeEvent);
     </tr>
     ${createHtmlForTimeSlot(1, selectedEvents)}
    
-    ${createHtmlForTimeSlot(2, selectedEvents)}
+   
     <tr class="pause"> 
         <th> 14.40 - 15.00 </th>
         <th colspan="5"> Oppsummering og avslutning i team der alle deler det viktigste de har lært. Individuell oppsummering med egen logg til slutt
