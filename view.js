@@ -12,8 +12,8 @@ let selectedEvents = model.events.filter(includeEvent);
         <th>${d}</th>`).join('')}
     </tr>
     ${createHtmlForTimeSlot(0, selectedEvents)}
-    <tr class="pause"> 
-        <th  > 11.30 - 12.15 </th>
+    <tr> 
+        <th> 11.30 - 12.15 </th>
         <th class="pause" colspan="5"> FELLES PAUSE </th>
     </tr>
     ${createHtmlForTimeSlot(1, selectedEvents)}
