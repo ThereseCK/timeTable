@@ -65,7 +65,7 @@ const model={
        
               // MODUL 3 MANDAG
         {
-            name: '<div style="color: red;"> 09.00 -  09.30 <br>Chorei + NK i team  <br> 09.30 - 10.30 <br> MorraMøte + Sette opp Ukeplan i Team</div>',
+            name: '<div style="color: fuchsia;"> 09.00 -  09.30 <br>Chorei + NK i team  <br> 09.30 - 10.30 <br> MorraMøte + Sette opp Ukeplan i Team</div>',
             time: {
                 day: 0,
                 timeSlot: 0
@@ -133,7 +133,7 @@ const model={
 
         // MODUL 3- Tirsdag
         {
-            name: '<div style="color: red;"> 09.00 - 09.30: Chorei <br> Morramøte  </div>',
+            name: '<div style="color: fuchsia;"> 09.00 - 09.30: Chorei <br> Morramøte  </div>',
             time: {
                 day: 1,
                 timeSlot: 0
@@ -143,7 +143,7 @@ const model={
             teachers: ['Linn']
         },
         {
-            name: '<div style="color: red;"> 12.15 - 13.45 <br> TerjeTime <br> <br> 13.45 - 14.45 <br> CodeReview</div>',
+            name: '<div style="color: fuchsia;"> 12.15 - 13.45 <br> TerjeTime <br> <br> 13.45 - 14.45 <br> CodeReview</div>',
             time: {
                 day: 1,
                 timeSlot: 1
@@ -204,7 +204,7 @@ const model={
 
 // MODUL 3- Onsdag
 {
-    name: '<div style="color: red;"> 09.00 - 09.40: Chorei  + Gjest <br> Morramøte  </div>',
+    name: '<div style="color: fuchsia;"> 09.00 - 09.40: Chorei  + Gjest <br> Morramøte  </div>',
     time: {
         day: 2,
         timeSlot: 0
@@ -273,7 +273,7 @@ const model={
 
         // MODUL 3- Torsdag
         {
-            name: '<div style="color: red;"> 09.00: Morramøte  </div>',
+            name: '<div style="color: fuchsia;"> 09.00: Morramøte  </div>',
             time: {
                 day: 3,
                 timeSlot: 0
@@ -342,7 +342,7 @@ const model={
 
 // MODUL 3- Fredag
 {
-    name: '<div style="color: red;"> 09.00 - 09.15: Chorei <br> MorgenMøte <br> 10.00- 11.30 <br> Terjetime</div>',
+    name: '<div style="color: fuchsia;"> 09.00 - 09.15: Chorei <br> MorgenMøte <br> 10.00- 11.30 <br> Terjetime</div>',
     time: {
         day: 4,
         timeSlot: 0
@@ -352,7 +352,7 @@ const model={
     teachers: ['Linn']
 },
 {
-    name: '<div style="color: red;"> 13.30- OUT Kommer <br> 14.00: Oppsumering av uka <br> 14.45: frivillig kahoot </div>',
+    name: '<div style="color: fuchsia;"> 13.30- OUT Kommer <br> 14.00: Oppsumering av uka <br> 14.45: frivillig kahoot </div>',
     time: {
         day: 4,
         timeSlot: 1
