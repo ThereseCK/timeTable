@@ -20,8 +20,14 @@ let selectedEvents = model.events.filter(includeEvent);
    
    
     <tr class="pause"> 
-        <th> 14.40 - 15.00 </th>
-        <th colspan="5"> Oppsummering og avslutning i team der alle deler det viktigste de har lært. Individuell oppsummering med egen logg til slutt
+        <th> 14.45 - 15.00 </th>
+        <th colspan="5" style="color: green; text-decoration: underline; font-size: small;"> Oppsummering og avslutning i team
+        <br>Har alle deltatt aktivt?
+       <br> Hvem har spurt? Hvem har hjulpet? Har dere henta hjelp på utsida teamet?
+       <br> Har dere klart å følge planen vår? Hvis ikke, hva er grunnen? Må dere endre noe? Hva har dere lært av det? Ting å tenke på til morgen?
+        <br>Hva er dere fornøyd med? Hva vil dere evt endre. 
+       <br> Individuell loggføring
+        
         <br> Fredag er det frivillig Kahoot 14:45</th>
     </tr>
 </table>

@@ -52,7 +52,7 @@ const model={
             teachers: ['Therese']
         },
         // {
-        //     name: '<div style="color: purple;"> </div>',
+        //     name: '<div style="color: blue;"> DERE VELGER </div>',
             
         //     time: {
         //         day: 0,
@@ -60,7 +60,7 @@ const model={
         //     },
 
         //     module: 'Modul 2',
-        //     teachers: ['Therese']
+        //     teachers: ['Therese er tilgjengelig for spm']
         // },  
        
               // MODUL 3 MANDAG
