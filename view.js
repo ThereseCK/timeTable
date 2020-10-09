@@ -13,8 +13,8 @@ let selectedEvents = model.events.filter(includeEvent);
     </tr>
     ${createHtmlForTimeSlot(0, selectedEvents)}
     <tr class="pause"> 
-        <th> 11.30 - 12.15 </th>
-        <th colspan="5"> FELLES PAUSE </th>
+        <th  > 11.30 - 12.15 </th>
+        <th class="pause" colspan="5"> FELLES PAUSE </th>
     </tr>
     ${createHtmlForTimeSlot(1, selectedEvents)}
    
@@ -44,9 +44,9 @@ function createHtmlForTimeSlot(timeSlot, events) {
                     ${eventsFromDayAndTime(dayNo, timeSlot, events).map(event => `
                     <strong>${event.module}</strong>
                    
-                    <li>
-                        ${event.name} <strong style="color:grey;"><br>${event.teachers.join(', ')}</strong>  
-                    </li><br>
+                   
+                        ${event.name} <strong style="color:grey;">${event.teachers.join(', ')}</strong>  
+                    <br><br>
                     `).join('')}
                 </ul>
             </td>`).join('')}

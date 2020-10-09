@@ -1,10 +1,10 @@
 const model={
     selectedModule: 'Modul 1',
     days: ['Mandag <br> <p style="color: red; font-size:x-small">12.15-13.15 <br> JETLAG møte </p> ',
-     'Tirsdag <br><p style="color: red; font-size:x-small;"> 12-15-14.45<br> Joakim Egentid</p>',
-      'Onsdag <br><p style="color: red; font-size:x-small"> 12-15-14.45 <br> J L T Egentid </p>', 
-      'Torsdag <br> <p style="color: red; font-size:x-small"> GET Plandag </p>', 
-      'Fredag<br><p style="color: red; font-size:x-small"> 12-15-14.45 <br>Therese Egentid </p>'],
+     'TIRSDAG<br><p style="color: red; font-size:x-small;"> 12-15-14.45<br> Joakim Egentid</p>',
+      'ONSDAG <br><p style="color: red; font-size:x-small"> 12-15-14.45 <br> J L T Egentid </p>', 
+      'TORSDAG <br> <p style="color: red; font-size:x-small"> GET Plandag </p>', 
+      'FREDAG<br><p style="color: red; font-size:x-small"> 12-15-14.45 <br>Therese Egentid </p>'],
     timeSlots: ['09.00 - 11.30', '12.15 - 14.45', ],
     menuOptions: [
         {value: null, txt: 'Alle Modulene'},
@@ -227,14 +227,14 @@ const model={
         // MODUL 1 - Torsdag
 
         {
-            name: '<div style="color: purple;"> 09.00: Morramøte <br><br> 11.00 - 11.30: Codealong m/Joakim, Linn/Therese </div>',
+            name: '<div style="color: purple;"> 09.00: Morramøte <br><br> 11.00 - 11.30: Codealong</div>',
             time: {
                 day: 3,
                 timeSlot: 0
             },
 
             module: 'Modul 1',
-            teachers: ['Joakim']
+            teachers: ['Joakim, Therese/Linn']
         },
         // {
         //     name: '<div> </div>',
