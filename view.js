@@ -45,7 +45,7 @@ function createHtmlForTimeSlot(timeSlot, events) {
                     <strong>${event.module}</strong>
                    
                    
-                        ${event.name} <strong style="color:grey;">${event.teachers.join(', ')}</strong>  
+                        ${event.name} <strong style="color:green;">${event.teachers.join(', ')}</strong>  
                     <br><br>
                     `).join('')}
                 </ul>
